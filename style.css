@@ -1,6 +1,16 @@
 body {
   background-color: #fafbff;
 }
-.container {
-  background-color: #fafbff;
+
+h1 {
+  background-image: url(images/wallpaper.jpg);
+  text-align: center;
+  padding: 90px;
+}
+h2 {
+  text-align: center;
+  padding-top: 100px;
+}
+img {
+  border-radius: 2px;
 }
