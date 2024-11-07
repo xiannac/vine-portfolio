@@ -53,3 +53,10 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.videoCarousel {
+  background-color: #f1ebdf;
+}
+
+span {
+  color: orangered;
+}
