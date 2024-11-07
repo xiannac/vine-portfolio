@@ -16,11 +16,11 @@ img {
   border-radius: 2px;
 }
 
-.img-fluid {
+#gallery .img-fluid {
   box-shadow: 1px 1px 5px #a45244;
   transition: transform 0.2s ease;
 }
-.img-fluid:hover {
+#gallery .img-fluid:hover {
   transform: scale(1.4);
 }
 #about {
@@ -65,7 +65,28 @@ img {
 .videoCarousel {
   background-color: #f1ebdf;
 }
+i {
+  color: #cf6651;
+  border-radius: 13px;
+  background-color: #e2daca;
+  font-size: 70px;
+  text-align: center;
+  transition: transform 0.5s ease-in;
+}
+.contactMe {
+  text-align: center;
+}
 
-span {
-  color: orangered;
+#contactMe {
+  background-color: #e2daca;
+}
+
+i:hover {
+  background-color: #cf6651;
+  color: #e2daca;
+}
+
+large {
+  font-size: 40px;
+  color: #cf6651;
 }
