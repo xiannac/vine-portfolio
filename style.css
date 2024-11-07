@@ -64,11 +64,13 @@ img {
 }
 .videoCarousel {
   background-color: #f1ebdf;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 i {
   color: #cf6651;
   border-radius: 13px;
-  background-color: #e2daca;
+  background-color: #f8f9fa;
   font-size: 70px;
   text-align: center;
   transition: transform 0.5s ease-in;
@@ -78,15 +80,35 @@ i {
 }
 
 #contactMe {
-  background-color: #e2daca;
+  background-color: #f8f9fa;
 }
 
 i:hover {
   background-color: #cf6651;
-  color: #e2daca;
+  color: #f8f9fa;
 }
 
+.github {
+  text-decoration: none;
+  color: rgba(48, 48, 48, 0.577);
+}
+.github:hover {
+  color: rgb(29, 29, 29);
+}
 large {
   font-size: 40px;
   color: #cf6651;
+}
+
+#index footer {
+  text-align: center;
+  background-color: #f1ebdf;
+  color: #b2ada3;
+  font-family: "Playfair Display", serif;
+}
+
+footer {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  opacity: 60%;
 }
